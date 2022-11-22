@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./Assests/icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Interview Questions Html-Day2</h1>
+    <h2>Difference between Html tags & elements?</h2>
+    <p>In Html tags are hold the Html elements .html elements holds content.</p>
+    <h2>Explain br tag ?</h2>
+    <h3>br tag</h3>
+    <p>In Html we use br tag inserts a single line  break.</p>
+    <h2>order-list & unorder-list</h2>
+    <!-- order list -->
+    <ol type="3" reversed>
+        <li>Orange</li>
+        <li>Apple</li>
+        <li>Graps</li>
+        
+    </ol>
+    <!-- unorder list -->
+    <ul>
+        <li>Chicken biryani</li>
+        <li>Parota</li>
+    </ul>
+    <!-- discription list -->
+    <!-- discription terms -->
+    <!-- discription data -->
+    <dl>
+        <dt>cars Prieces</dt>
+        <dd> Maruti Suzuki. XL6. Starts at ₹ 11.29 Lakh. </dd>
+    </dl>
+    <!-- in html A semantic element clearly describes its meaning to both the browser and the developer -->
+    <h3> what are semantic tags ?</h3>
+    <p> in html A semantic element clearly describes its meaning to both the browser and the developer ( header , nav, section ,article ,aside , footer). Examples of non-semantic elements like ( form , table ...etc)</p>
+    <!-- create a roman list in ordert-list  -->
+    <ol type="I">
+        <li>veg</li>
+        <li>non-veg</li>
+        
+    </ol>
+    <!-- create circle list in unorder list -->
+    <ul type="circle">
+        <li>tamato</li>
+        <li>potato</li>
+    </ul>
+    <!-- link www.prepbyets.com link -->
+    <a href="wwww.prepbyets.com">prepbyests</a><br>
+    <!-- relative path -->
+    <h2>relative path</h2>
+    <img src="./../Assests/icon.png" alt="icon"><br>
+    <!-- absolute path -->
+    <h2>absolute path</h2>
+
+    <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/landing/continental-gt-new.jpg" width="300px" height="300px" alt=""><br>
+    <!-- explain table how to acheive colspan -->
+    <h2>how to acheive colspan in table</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2"> front end developer</th>
+            
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td> R Dinesh</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>111222rdh@gmail.com</td>
+        </tr>
+    </table><br><br>
+    <form action="./respond.html" style="border: 2px solid black;padding-left: 30px ;width: 550px;" method="get">
+        <h2>Form</h2>
+        <label for="myname">Name : </label>
+        <input type="text" name="name" id="name" value="" placeholder="Full Name" required ><br><br>
+        <label for="myage">Age : </label>
+        <input type="number" name="age" id="age" value="" placeholder="Age" required><br><br>
+        <label for="myemail">Email : </label>
+        <input type="email" name="email" id="email" value=""><br><br>
+        <label for="mycontact">Contact number : </label>
+        <input type="tel" name="contact" id="contact" value=""><br><br>
+        <!-- create a radio button for MERN & MEAN -->
+        <label for="Course"><b>Course</b> </label><br><br>
+        <input type="radio" name="course"id="course" value="MERN" required>MERN <br><br>
+        <input type="radio" name="course"id="course" value="MEAN">MEAN <br><br>
+        we can't select multiple options in radio , if we want select any of one we can use radio.<br><br>
+        
+        <label for=""><b>Frontend Develpment</b></label><br><br>
+        <input type="checkbox"value="html" name="course1">Html<br><br>
+        <input type="checkbox" value="css" name="course2">CSS<br><br>
+        <input type="checkbox" value="react" name="course3">React<br><br>
+        <input type="checkbox" value="node" name="course4">Node<br><br>
+        <input type="submit" value="clickme"><br><br>
+        In Html we want to select multiple options by use  of checkbox.
+
+
+
+    </form>
+    
+
+</body>
+</html>
